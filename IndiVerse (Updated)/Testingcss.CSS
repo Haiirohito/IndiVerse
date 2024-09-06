@@ -1,0 +1,203 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Settings */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+
+a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header */
+  header {
+    background-color: black;
+    padding: 20px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .search-bar input {
+    background-color: #2D2D2D;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .logo h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .icons a {
+    margin-left: 20px;
+  }
+  
+  .icons i {
+    font-size: 1.2rem;
+  }
+  
+  .icons a:hover {
+    color: gray;
+  }
+  
+  .nav {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    z-index: 1000;
+  }
+  
+  
+
+  nav {
+    background-color: black;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 20px;
+  }
+  
+
+
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Text styling and centering */
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+}
+
+.overlay-text h1 {
+    font-size: 2em; /* Adjusted for larger title */
+    font-weight: bold;
+    margin: 0;
+    color:#000
+}
+
+.overlay-text p {
+    font-size: 1.2em; /* Slightly smaller subtitle */
+    letter-spacing: 0.1em; /* Spacing similar to the image */
+    margin: 0;
+    color: #000;
+}
+
+
+/* Navigation */
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #111;
+    padding: 1em;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Section Styling */
+section {
+    padding: 100px 50px;
+    margin-top: 80px;
+    min-height: 100vh;
+}
+
+h1, h2 {
+    margin: 0;
+    padding-bottom: 0.5em;
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+#home {
+    background-color: #333;
+}
+
+#monuments, #hidden-gems, #languages, #folk-songs, #sahayak-ai, #artifacts, #support-faq, #about-us {
+    background-color: #222;
+}
+
+/* Hover Effects for Links */
+a:hover {
+    transition: 0.3s;
+    color: #f0f;
+}
+
+/* Spacing */
+section {
+    padding: 80px 10%;
+    margin-bottom: 60px;
+}
