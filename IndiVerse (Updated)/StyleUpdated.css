@@ -1,0 +1,258 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Settings */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #000;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+/* Logo Styling */
+.logo a {
+    color: #00ff6e;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation Links Styling */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.nav-links a:hover {
+    color: #00ff6e;
+}
+
+/* Dropdown Menu Styling */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    top: 35px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    padding: 5px 0;
+}
+
+.dropdown-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.dropdown-menu a:hover {
+    color: #00ff6e;
+}
+
+/* Search Bar */
+.search-bar {
+    position: relative;
+}
+
+.search-bar input {
+    padding: 8px 16px;
+    border-radius: 25px;
+    border: none;
+    width: 200px;
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+.search-bar input::placeholder {
+    color: #ddd;
+}
+
+.search-btn {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #00ff6e;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-btn:hover {
+    color: #fff;
+}
+
+/* Sign In and Sign Up Buttons */
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.signin-btn, .signup-btn {
+    background-color: transparent;
+    border: 1px solid #00ff6e;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.signin-btn:hover, .signup-btn:hover {
+    background-color: #00ff6e;
+    color: #000;
+}
+
+
+
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Text styling and centering */
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+}
+
+.overlay-text h1 {
+    font-size: 2em; /* Adjusted for larger title */
+    font-weight: bold;
+    margin: 0;
+    color:#000
+}
+
+.overlay-text p {
+    font-size: 1.2em; /* Slightly smaller subtitle */
+    letter-spacing: 0.1em; /* Spacing similar to the image */
+    margin: 0;
+    color: #000;
+}
+
+
+/* Navigation */
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #111;
+    padding: 1em;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Section Styling */
+section {
+    padding: 100px 50px;
+    margin-top: 80px;
+    min-height: 100vh;
+}
+
+h1, h2 {
+    margin: 0;
+    padding-bottom: 0.5em;
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+#home {
+    background-color: #333;
+}
+
+#monuments, #hidden-gems, #languages, #folk-songs, #sahayak-ai, #artifacts, #support-faq, #about-us {
+    background-color: #222;
+}
+
+/* Hover Effects for Links */
+a:hover {
+    transition: 0.3s;
+    color: #f0f;
+}
+
+/* Spacing */
+section {
+    padding: 80px 10%;
+    margin-bottom: 60px;
+}
