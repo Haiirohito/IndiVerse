@@ -13,6 +13,7 @@ Photo Galleries: Browse high-quality images of monuments, artwork, and tradition
 Storytelling: Learn the history and significance behind each monument and tradition.
 User Contributions: Share your own cultural experiences and photographs.
 Search and Filter: Quickly find specific locations, monuments, or cultural topics of interest.
+
 🎯 Objectives
 Preservation: Promote awareness and preservation of cultural heritage.
 Education: Provide authentic information about monuments, art, and traditions.
